@@ -1,0 +1,279 @@
+
+body{
+    background-image: url(imeg/22.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#container{
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     min-height: 100%;
+     display: block;
+}
+
+#container #header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color:rgba(112, 112, 112, 0.452);
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-flow: row;
+    gap: 50px;
+}
+
+#container #header #help{
+    width: 20%;
+    height: 40px;
+}
+
+
+#container #header #download {
+    width: 20%;
+    height: 40px;
+
+}
+
+#container #header #pishkhan{
+    width: 50%;
+    height: 40px;
+}
+
+@font-face {
+    font-family: fonts1;
+    src: url(fonts/BTRAFB.TTF);
+}
+
+#container #header #help{
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    gap: 5px;
+  
+}
+
+#container #header #help span{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: fonts1;
+    cursor: pointer;
+}
+#container #header #help span::selection{
+    background: transparent;
+}
+
+#container #header #help span:hover{
+    color:white;
+    transition: 700ms;
+}
+
+
+#container #header #download{
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+
+
+}
+
+#container #header #download span{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: fonts1;
+    cursor: pointer;
+
+}
+#container #header #download span::selection{
+        background: transparent;
+}
+
+#container #header #download span:hover{
+    color:white;
+    transition: 700ms;
+}
+
+#container #header #pishkhan {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: right;
+    place-items: center;
+    gap: 8px;
+    margin-right: 40px;
+
+}
+
+#container #header #pishkhan h1{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: fonts1;
+    cursor: pointer;
+}
+
+#container #header #pishkhan h1::selection{
+    background: transparent;
+}
+
+#container #header #pishkhan h1:hover{
+    color:white;
+    transition: 700ms;
+
+}
+
+
+#container form{
+    position: relative;
+    top: 50px;
+    left: 35%;
+    width: 400px;
+    height: 450px;
+    background-color: rgba(61, 61, 61, 0.74);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.178);
+    display: flex;
+    justify-content: start;
+    place-items: center;
+    flex-flow: column;
+    animation: animiform 5s linear 1;
+
+}
+
+@keyframes animiform {
+    from {
+        transform:translateX(-830px)
+
+    }
+    to{
+        transform: translateX(0px);
+
+    }
+    
+}
+
+#container form h2{
+    color:white ;
+    font-size: 22px;
+    font-family: fonts1;
+    font-weight: 900;
+}
+
+#container form h2::selection{
+    background: transparent;
+}
+
+#container form #input{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 300px;
+    background-color: rgba(36, 36, 36, 0.349);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-flow: column;
+    gap: 30px;
+}
+
+#container form #input input{
+    padding: 8px 30px 8px 30px ;
+    text-align: center;
+    border-radius: 5px;
+    background: none;
+    border:white solid 1px ;
+    outline: outset 1px;
+    font-size: 15px;
+    color: white;
+}
+
+#container form #input span{
+    color: white;
+    font-size: 13px;
+    font-family: fonts1;
+    direction: rtl;
+    margin-top: -15px;
+
+}
+
+#container form #input span::selection{
+    background-color: transparent;
+}
+#container form #input span:hover{
+    color:crimson;
+    transition: 700ms;
+    cursor: pointer;
+
+}
+
+#container form #input button{
+    padding: 5px 40px 5px 40px ;
+    color: white;
+    font-family: fonts1;
+    font-size: 15px;
+    background: none;
+    border-radius: 5px;
+    border:white solid 2px;
+    outline-offset: 2px;
+    font-weight: 900;
+    
+}
+
+#container form #input button:active{
+    background-color: rgb(247, 144, 126);
+}
+
+#container form #input button:hover{
+    color: red;
+    transition: 700ms;
+    cursor: pointer;
+}
+
+#container form #enduser{
+    position: relative;
+    top: 30px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: row ;
+    gap: 15px;
+
+}
+
+#container form #enduser span{
+    color: white;
+    font-size: 15px;
+    font-family: fonts1;
+    cursor: pointer;
+
+}
+
+#container form #enduser span::selection{
+    background: transparent;
+}
+
+#container form #enduser span:hover{
+    color: red;
+    transition: 700ms;
+}
+
+
